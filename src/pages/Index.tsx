@@ -601,7 +601,7 @@ export default function Index() {
       <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
           <button onClick={() => navigate("home")} className="font-display text-xl font-normal tracking-tight hover:opacity-70 transition-opacity">
-            Forum<em>·</em>
+            Давай жить ярче
           </button>
           <nav className="hidden md:flex items-center gap-1">
             {NAV_ITEMS.map(item => (
@@ -642,7 +642,7 @@ export default function Index() {
 
       <footer className="border-t border-border mt-20">
         <div className="max-w-5xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <span className="font-display text-lg">Forum<em>·</em></span>
+          <span className="font-display text-lg">Давай жить ярче</span>
           <p className="text-xs text-muted-foreground">© 2026 Сообщество профессионалов</p>
           <div className="flex gap-4 text-xs text-muted-foreground">
             <a href="#" className="hover:text-foreground transition-colors">Правила</a>
